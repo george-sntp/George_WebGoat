@@ -23,4 +23,4 @@ jobs:
         password: ${{ secrets.iq_login }}
         applicationId: George_WebGoat__george-sntp
         stage: Build
-        target: ./target/
+        target: george-sntp/George_WebGoat
