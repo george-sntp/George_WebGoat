@@ -13,7 +13,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    #- name: Build with Maven
+    #- name: Build with Maven - testing without this build
     #  run: mvn package -DskipTests --file pom.xml
     - name: Nexus IQ Policy Evaluation
       uses: sonatype-nexus-community/iq-github-action@master
