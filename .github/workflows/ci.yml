@@ -13,12 +13,12 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Maven
-      run: mvn package -DskipTests --file pom.xml
+    #- name: Build with Maven
+    #  run: mvn package -DskipTests --file pom.xml
     - name: Nexus IQ Policy Evaluation
       uses: sonatype-nexus-community/iq-github-action@master
       with:
-        serverUrl: https://2676-2a02-8109-8ac0-423c-bc76-cd22-d2fa-1124.eu.ngrok.io
+        serverUrl: https://iq.gnissim.eu.ngrok.io
         username: admin
         password: ${{ secrets.iq_login }}
         applicationId: George_WebGoat__george-sntp
