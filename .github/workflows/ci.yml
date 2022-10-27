@@ -1,6 +1,6 @@
 name: Maven CI with Nexus IQ
 
-on: [push]
+on: [push,workflow_dispatch]
 
 jobs:
   build:
