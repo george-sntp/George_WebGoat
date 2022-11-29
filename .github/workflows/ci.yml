@@ -18,7 +18,7 @@ jobs:
     - name: Nexus IQ Policy Evaluation
       uses: sonatype-nexus-community/iq-github-action@master
       with:
-        serverUrl: https://iq.gnissim.eu.ngrok.io
+        serverUrl: ${{ secrets.iq_url }}
         username: ${{ secrets.iq_user }}
         password: ${{ secrets.iq_login }}
         applicationId: George_WebGoat__george-sntp
