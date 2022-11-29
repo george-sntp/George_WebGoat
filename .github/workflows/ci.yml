@@ -19,7 +19,7 @@ jobs:
       uses: sonatype-nexus-community/iq-github-action@master
       with:
         serverUrl: https://iq.gnissim.eu.ngrok.io
-        username: admin
+        username: ${{ secrets.iq_user }}
         password: ${{ secrets.iq_login }}
         applicationId: George_WebGoat__george-sntp
         stage: stage-release
