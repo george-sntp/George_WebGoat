@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.iq_login }}
         application-id: George_WebGoat__george-sntp
         stage: build
-        #target: george-sntp/George_WebGoat
+        scan-targets: george-sntp/George_WebGoat
