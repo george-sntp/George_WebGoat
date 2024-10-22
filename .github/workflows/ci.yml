@@ -31,7 +31,7 @@ jobs:
         iq-server-url: ${{ secrets.iq_url }}
         username: ${{ secrets.iq_user }}
         password: ${{ secrets.iq_login }}
-        application-id: George_WebGoat__george-sntp
+        application-id: WebGoat__george-sntp-org
         stage: build
         scan-targets: pom.xml
         # scan-targets: george-sntp/George_WebGoat/*
